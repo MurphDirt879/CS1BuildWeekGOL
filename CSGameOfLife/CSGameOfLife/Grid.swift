@@ -82,8 +82,6 @@ class Grid {
 
     }
     
-    
-    
     func computeNext(){
         resetGrid(grid: nextArray)
         
@@ -109,6 +107,21 @@ class Grid {
         
     }
     
+    
+    func randomize() {
+        
+        let times: Int = Int.random(in: 10...500)
+        for _ in times {
+            let x = Int.random(in: 0...24)
+            let y = Int.random(in: 0...24)
+            if nextArray[x][y].isAlive == false {
+                nextArray[x][y].makeAlive()
+            }
+        }
+        
+        draw()
+    }
+    
     func countNeighbors( x: Int, y: Int) -> Int{
         var count = 0
         let rows = 25
@@ -123,7 +136,6 @@ class Grid {
         }
         return count
     }
-    
     
     func configureTimer() {
         
@@ -193,3 +205,8 @@ class Grid {
     
 }
 
+extension Int: Sequence {
+    public func makeIterator() -> CountableRange<Int>.Iterator {
+        return (0..<self).makeIterator()
+    }
+}

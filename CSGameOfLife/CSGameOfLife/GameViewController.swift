@@ -88,6 +88,10 @@ class GameViewController: UIViewController {
         grid.gliderPattern()
     }
     
+    @IBAction func randomizeButtonTapped(_ sender: Any) {
+        grid.resetGame()
+        grid.randomize()
+    }
     
     
 }
