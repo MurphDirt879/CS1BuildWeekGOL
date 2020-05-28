@@ -19,6 +19,7 @@
 		4472B273247EC64600A87306 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472B272247EC64600A87306 /* Notification.swift */; };
 		4472B275247EC6E800A87306 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472B274247EC6E800A87306 /* GameViewController.swift */; };
 		4472B277247EC6F900A87306 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472B276247EC6F900A87306 /* SettingsViewController.swift */; };
+		44785E09248024910021E9D8 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44785E08248024910021E9D8 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		4472B272247EC64600A87306 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		4472B274247EC6E800A87306 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		4472B276247EC6F900A87306 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		44785E08248024910021E9D8 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				4472B274247EC6E800A87306 /* GameViewController.swift */,
 				4472B276247EC6F900A87306 /* SettingsViewController.swift */,
 				4472B24A247EC3C200A87306 /* SceneDelegate.swift */,
+				44785E08248024910021E9D8 /* AboutViewController.swift */,
 				4472B248247EC3C200A87306 /* AppDelegate.swift */,
 				4472B24E247EC3C200A87306 /* Main.storyboard */,
 				4472B251247EC3C400A87306 /* Assets.xcassets */,
@@ -218,6 +221,7 @@
 				4472B271247EC62300A87306 /* Settings.swift in Sources */,
 				4472B249247EC3C200A87306 /* AppDelegate.swift in Sources */,
 				4472B273247EC64600A87306 /* Notification.swift in Sources */,
+				44785E09248024910021E9D8 /* AboutViewController.swift in Sources */,
 				4472B275247EC6E800A87306 /* GameViewController.swift in Sources */,
 				4472B26D247EC59400A87306 /* Cell.swift in Sources */,
 				4472B24B247EC3C200A87306 /* SceneDelegate.swift in Sources */,

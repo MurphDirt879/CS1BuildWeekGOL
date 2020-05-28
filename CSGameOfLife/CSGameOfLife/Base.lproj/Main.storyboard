@@ -15,60 +15,89 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Wh-9R-BYe">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Wh-9R-BYe">
                                 <rect key="frame" x="171" y="105" width="72" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Reset Grid"/>
                                 <connections>
                                     <action selector="resetButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AgV-xx-zZ1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGM-hw-XOR">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGM-hw-XOR">
                                 <rect key="frame" x="20" y="761" width="69" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Toad"/>
                                 <connections>
                                     <action selector="toadButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pMj-ZS-AZT"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Patterns:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTW-Oe-baq">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Patterns:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTW-Oe-baq">
                                 <rect key="frame" x="20" y="709" width="69" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a76-Hh-Re7">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a76-Hh-Re7">
                                 <rect key="frame" x="114" y="761" width="67" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="67" id="Aqq-l8-TKy"/>
+                                </constraints>
                                 <state key="normal" title="Blinker"/>
                                 <connections>
                                     <action selector="blinkerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gSU-X8-zGB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Evg-Dl-nSo">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Evg-Dl-nSo">
                                 <rect key="frame" x="218" y="761" width="67" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="67" id="Ezn-lG-k4V"/>
+                                </constraints>
                                 <state key="normal" title="Beacon"/>
                                 <connections>
                                     <action selector="beaconButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O00-IK-sqU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="voj-XB-LSP">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="voj-XB-LSP">
                                 <rect key="frame" x="327" y="761" width="67" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Glider"/>
                                 <connections>
                                     <action selector="gliderButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kUm-Uv-GYI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k3n-dA-Glc">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k3n-dA-Glc">
                                 <rect key="frame" x="169" y="811" width="76" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Randomize"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oLP-3G-4NI">
+                                <rect key="frame" x="377" y="109" width="31" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="31" id="sRj-Q4-Mtt"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="info.circle" catalog="system"/>
+                                <connections>
+                                    <segue destination="eXg-g2-Gqe" kind="show" id="NmH-qI-ZEL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="a76-Hh-Re7" firstAttribute="leading" secondItem="iGM-hw-XOR" secondAttribute="trailing" constant="25" id="0LU-iO-Jvo"/>
+                            <constraint firstItem="Evg-Dl-nSo" firstAttribute="leading" secondItem="a76-Hh-Re7" secondAttribute="trailing" constant="37" id="2cL-Lu-MU4"/>
+                            <constraint firstItem="iGM-hw-XOR" firstAttribute="top" secondItem="MTW-Oe-baq" secondAttribute="bottom" constant="31" id="3P1-tB-9hs"/>
+                            <constraint firstItem="8Wh-9R-BYe" firstAttribute="centerX" secondItem="k3n-dA-Glc" secondAttribute="centerX" id="4rg-Tg-wKo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oLP-3G-4NI" secondAttribute="trailing" constant="6" id="5xi-F6-Z3g"/>
+                            <constraint firstItem="iGM-hw-XOR" firstAttribute="baseline" secondItem="a76-Hh-Re7" secondAttribute="baseline" id="A9e-Il-vfz"/>
+                            <constraint firstItem="MTW-Oe-baq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="FNE-Jo-9fv"/>
+                            <constraint firstItem="voj-XB-LSP" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="RBE-ek-pLC"/>
+                            <constraint firstItem="MTW-Oe-baq" firstAttribute="trailing" secondItem="iGM-hw-XOR" secondAttribute="trailing" id="ST3-Jb-zhf"/>
+                            <constraint firstItem="k3n-dA-Glc" firstAttribute="top" secondItem="a76-Hh-Re7" secondAttribute="bottom" constant="20" id="VuC-gV-rFV"/>
+                            <constraint firstItem="8Wh-9R-BYe" firstAttribute="centerY" secondItem="oLP-3G-4NI" secondAttribute="centerY" id="YkZ-n4-Omk"/>
+                            <constraint firstItem="8Wh-9R-BYe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="17" id="Zbg-Ut-dF6"/>
+                            <constraint firstItem="voj-XB-LSP" firstAttribute="leading" secondItem="Evg-Dl-nSo" secondAttribute="trailing" constant="42" id="jFm-ad-R49"/>
+                            <constraint firstItem="a76-Hh-Re7" firstAttribute="baseline" secondItem="Evg-Dl-nSo" secondAttribute="baseline" id="n0f-kZ-Axi"/>
+                            <constraint firstItem="8Wh-9R-BYe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pZa-dW-lEz"/>
+                            <constraint firstItem="MTW-Oe-baq" firstAttribute="leading" secondItem="iGM-hw-XOR" secondAttribute="leading" id="tuh-aI-jTO"/>
+                            <constraint firstItem="MTW-Oe-baq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="621" id="xPP-FV-dQp"/>
+                            <constraint firstItem="Evg-Dl-nSo" firstAttribute="baseline" secondItem="voj-XB-LSP" secondAttribute="baseline" id="yxX-Vf-L15"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="Idx-SZ-QFv">
@@ -99,6 +128,93 @@
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="137.94642857142856"/>
         </scene>
+        <!--About View Controller-->
+        <scene sceneID="MHN-cH-ITm">
+            <objects>
+                <viewController id="eXg-g2-Gqe" customClass="AboutViewController" customModule="CSGameOfLife" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dgq-JW-HLs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iuo-2t-Kze">
+                                <rect key="frame" x="20" y="109" width="136" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rules:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8kZ-z5-TqW">
+                                <rect key="frame" x="20" y="202" width="80" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Any live cell with two or three live neighbours survives." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HaC-H4-SVM">
+                                <rect key="frame" x="46" y="421" width="323" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Any dead cell with three live neighbours becomes a live cell." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gkU-W0-YYO">
+                                <rect key="frame" x="46" y="484" width="323" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9h5-ty-iuQ">
+                                <rect key="frame" x="36" y="246" width="333" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, live or dead, (or populated and unpopulated, respectively). Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Source: Wikipedia" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Mr-j8-loS">
+                                <rect key="frame" x="277" y="636" width="72" height="10"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uli-4v-x9b">
+                                <rect key="frame" x="135" y="786" width="144" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go To YouTube ..."/>
+                                <connections>
+                                    <action selector="youtubeButtonPressed:" destination="eXg-g2-Gqe" eventType="touchUpInside" id="Vzj-Ne-Hc5"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hear from John Conway:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hb4-kK-NQU">
+                                <rect key="frame" x="111" y="738" width="189" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="All other live cells die in the next generation. Similarly, all other dead cells stay dead." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="C5U-6Z-D1s">
+                                <rect key="frame" x="46" y="547" width="323" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="g01-FC-Qc8"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cLc-87-brB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9i9-La-fov" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1786.9565217391305" y="137.94642857142856"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="D3p-sx-cbB">
             <objects>
@@ -119,6 +235,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="play.circle" catalog="system" width="128" height="121"/>
     </resources>
 </document>

@@ -82,44 +82,7 @@ class Grid {
 
     }
     
-    func toadPattern() {
-        nextArray[12][12].makeAlive()
-        nextArray[12][11].makeAlive()
-        nextArray[11][11].makeAlive()
-        nextArray[10][11].makeAlive()
-        nextArray[13][12].makeAlive()
-        nextArray[11][12].makeAlive()
-        draw()
-        
-    }
     
-    func blinkerPattern() {
-        nextArray[12][12].makeAlive()
-        nextArray[11][12].makeAlive()
-        nextArray[13][12].makeAlive()
-        draw()
-    }
-    
-    func beaconPattern() {
-        nextArray[12][12].makeAlive()
-        nextArray[12][13].makeAlive()
-        nextArray[13][12].makeAlive()
-        nextArray[13][13].makeAlive()
-        nextArray[11][11].makeAlive()
-        nextArray[11][10].makeAlive()
-        nextArray[10][11].makeAlive()
-        nextArray[10][10].makeAlive()
-        draw()
-    }
-
-    func gliderPattern() {
-        nextArray[3][4].makeAlive()
-        nextArray[4][4].makeAlive()
-        nextArray[5][4].makeAlive()
-        nextArray[5][3].makeAlive()
-        nextArray[4][2].makeAlive()
-        draw()
-    }
     
     func computeNext(){
         resetGrid(grid: nextArray)
@@ -189,6 +152,44 @@ class Grid {
         computeNext()
     }
     
+    func toadPattern() {
+        nextArray[12][12].makeAlive()
+        nextArray[12][11].makeAlive()
+        nextArray[11][11].makeAlive()
+        nextArray[10][11].makeAlive()
+        nextArray[13][12].makeAlive()
+        nextArray[11][12].makeAlive()
+        draw()
+        
+    }
+    
+    func blinkerPattern() {
+        nextArray[12][12].makeAlive()
+        nextArray[11][12].makeAlive()
+        nextArray[13][12].makeAlive()
+        draw()
+    }
+    
+    func beaconPattern() {
+        nextArray[12][12].makeAlive()
+        nextArray[12][13].makeAlive()
+        nextArray[13][12].makeAlive()
+        nextArray[13][13].makeAlive()
+        nextArray[11][11].makeAlive()
+        nextArray[11][10].makeAlive()
+        nextArray[10][11].makeAlive()
+        nextArray[10][10].makeAlive()
+        draw()
+    }
+
+    func gliderPattern() {
+        nextArray[3][4].makeAlive()
+        nextArray[4][4].makeAlive()
+        nextArray[5][4].makeAlive()
+        nextArray[5][3].makeAlive()
+        nextArray[4][2].makeAlive()
+        draw()
+    }
     
 }
 
